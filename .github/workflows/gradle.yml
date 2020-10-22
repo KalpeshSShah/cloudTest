@@ -30,8 +30,6 @@ jobs:
       run: ./gradlew tasks
     - name: Test with Gradle
       run: ./gradlew test
-    - uses: actions/upload-artifact@v2
-      with:
-        name: Package
-        path: build/libs
+   - name: Download all workflow run artifacts
+     uses: actions/download-artifact@v2
 
