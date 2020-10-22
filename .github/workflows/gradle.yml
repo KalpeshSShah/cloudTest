@@ -25,4 +25,4 @@ jobs:
     - name: Build with Gradle
       run: Project/gradlew build
     - name: Test with Gradle
-      run: Project/gradlew test
+      run: Project/gradlew tasks
