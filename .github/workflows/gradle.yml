@@ -28,4 +28,6 @@ jobs:
       run: ./gradlew build
     - name: Tasks with Gradle
       run: ./gradlew tasks
+    - name: Test with Gradle
+      run: ./gradlew test
 
