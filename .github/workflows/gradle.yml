@@ -26,4 +26,6 @@ jobs:
       run: Project/gradlew init
     - name: Build with Gradle
       run: Project/gradlew build
+    - name: Tasks with Gradle
+      run: Project/gradlew tasks
 
